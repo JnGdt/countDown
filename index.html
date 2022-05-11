@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fira+Sans:wght@100&family=Lato:wght@100;300;400;700&family=Poppins:wght@100;300&family=Quicksand:wght@300;600&family=Ubuntu&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Countdown</h1>
+        <svg class="clock" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+    </div>
+    <div class="form">
+        <input type="" name="" id="hours" /> Hour:
+        <input type="" name="" id="minutes" /> Min:
+        <input type="" name="" id="seconds" /> Sec:
+    </div>
+
+    <button class="button" value="Start" onclick="setTimer()">Start</button>
+
+    <div class="result">
+        <p id="output"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
